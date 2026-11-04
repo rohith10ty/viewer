@@ -73,8 +73,8 @@ export default function Navbar({ activeTab, setActiveTab, onSelectMedia, onSearc
       <header
         className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
           isScrolled
-            ? 'glass-nav py-3.5 shadow-2xl shadow-black/80'
-            : 'bg-gradient-to-b from-black/90 via-black/40 to-transparent py-5'
+            ? 'glass-nav py-3 shadow-2xl shadow-black/80'
+            : 'bg-gradient-to-b from-[#08090c]/95 via-[#08090c]/60 to-transparent py-4'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
@@ -87,12 +87,12 @@ export default function Navbar({ activeTab, setActiveTab, onSelectMedia, onSearc
               <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-rose-600 via-red-500 to-amber-500 flex items-center justify-center shadow-lg shadow-rose-600/30 group-hover:scale-105 transition-transform duration-300">
                 <Play className="w-5 h-5 text-white fill-white ml-0.5" />
               </div>
-              <div className="flex flex-col">
+              <div className="flex items-center gap-2">
                 <span className="text-2xl font-black tracking-wider uppercase bg-gradient-to-r from-white via-zinc-100 to-zinc-400 bg-clip-text text-transparent">
                   VIEWER
                 </span>
-                <span className="text-[9px] tracking-widest uppercase text-rose-500 font-semibold -mt-1 flex items-center gap-1">
-                  STREAMING <Sparkles className="w-2.5 h-2.5 text-amber-400" />
+                <span className="hidden sm:inline-flex items-center gap-1 text-[9px] tracking-widest uppercase text-rose-400 font-extrabold px-1.5 py-0.5 rounded-md bg-rose-500/15 border border-rose-500/25">
+                  STREAM <Sparkles className="w-2.5 h-2.5 text-amber-400" />
                 </span>
               </div>
             </button>
