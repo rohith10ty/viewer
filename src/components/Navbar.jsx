@@ -91,8 +91,8 @@ export default function Navbar({ activeTab, setActiveTab, onSelectMedia, onSearc
                 <span className="text-2xl font-black tracking-wider uppercase bg-gradient-to-r from-white via-zinc-100 to-zinc-400 bg-clip-text text-transparent">
                   VIEWER
                 </span>
-                <span className="hidden sm:inline-flex items-center gap-1 text-[9px] tracking-widest uppercase text-rose-400 font-extrabold px-1.5 py-0.5 rounded-md bg-rose-500/15 border border-rose-500/25">
-                  STREAM <Sparkles className="w-2.5 h-2.5 text-amber-400" />
+                <span className="hidden sm:inline-flex items-center text-[9px] tracking-widest uppercase text-rose-400 font-extrabold px-1.5 py-0.5 rounded-md bg-rose-500/15 border border-rose-500/25">
+                  STREAM
                 </span>
               </div>
             </button>

@@ -70,8 +70,7 @@ export default function HeroSection({ featuredItems, onPlayMovie, onShowDetails 
           
           {/* Category / Trending Spotlight Badges */}
           <div className="flex flex-wrap items-center gap-2.5">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-600/30 border border-rose-500/40 text-rose-400 font-bold text-xs uppercase tracking-wider backdrop-blur-md">
-              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+            <span className="inline-flex items-center px-3 py-1 rounded-full bg-rose-600/30 border border-rose-500/40 text-rose-400 font-bold text-xs uppercase tracking-wider backdrop-blur-md">
               Viewer Spotlight
             </span>
             {currentItem.trendingRank && (
