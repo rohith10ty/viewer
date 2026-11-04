@@ -8,9 +8,9 @@ export const WatchlistProvider = ({ children }) => {
       const saved = localStorage.getItem('viewer_watchlist');
       if (saved) return JSON.parse(saved);
       // Default initial watchlist items for great out-of-the-box demo
-      return ['mv-1', 'tv-1'];
+      return ['mv-693134', 'tv-66732'];
     } catch {
-      return ['mv-1', 'tv-1'];
+      return ['mv-693134', 'tv-66732'];
     }
   });
 
